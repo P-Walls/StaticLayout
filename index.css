@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.landing-page {
+    height: 100vh;
+    display: flexbox;
+    justify-content: center;
+    background-image: url("https://www.hulu.com/static/hitch/s3/2020-06/Homepage_Masthead_Test_TABLET_1536x1320-v4c_6.16.20.jpg?DqfQDgPbPNjMN3zNuCjgPFiEnFDym3iq");
+    background-position: center;
+    max-height: 700px;
+}
+
+nav {
+    top: 0;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+ul {
+    list-style: none;
+    margin: 2em;
+}
+
+#login {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+#login:hover {
+    opacity: 50%;
+}
+
+.main {
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: 50px auto;
+    width: 40%;
+}
+
+#trial-banner {
+    color: #2DBD9D;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+#logo {
+    margin: auto;
+    display: flex;
+    width: 40%;
+}
+
+#plans-banner {
+    display: flex;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    flex-wrap: wrap;
+    font-size: 25px;
+    flex-shrink: 1;
+    text-align: center;
+}
+
+#add-ons-banner {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+#trial-button {
+    padding: 1.5em 2em;
+    border-radius: 5px;
+    border-style: hidden;
+    
+}
+
+#trial-button-text {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+#trial-button:hover {
+    opacity: 50%;
+}
+
+#trial-disclaimer {
+    opacity: 50%;
+    font-size: 10px;
+    margin: 15px auto;
+    font-family: Helvetica, Arial, sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+}
+
+.ribbon-container {
+    display: flexbox;
+    flex: 1 0 auto;
+    background: linear-gradient(318.68deg,#0F495C 0%,#0D3640 49.72%,#08141F 100%);
+    height: 150px;
+    margin-top: auto;
+    margin-bottom: 0;
+    z-index: 1;
+    align-self: flex-end;
+    justify-content: center;
+}
+
+.bundle-container {
+   width: 90%;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+}
+
+.bundle-content {
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#bundle-logos {
+    max-width: 25%;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.bundle-info {
+    display: flexbox;
+    text-align: left;
+    align-items: center;
+    position: relative;
+    bottom: 100px;
+    margin: auto;
+}
+
+#offer {
+    color: #2DBD9D;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    line-height: 13px;
+    display: block;
+    margin: 5px 0;
+}
+
+#offer-pricing {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    color: white;
+    display: block;
+    margin: 14px 0;
+    font-weight: lighter;
+}
+
+#offer-details {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    display: block;
+    margin-top: 14px;
+}
+
+#offer-link {
+    color: white;
+    opacity: 50%;
+}
+
+.bundle-button {
+    display: flexbox;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+    right: 85px;
+}
+
+.get-button {
+    background: transparent;
+    color: white;
+    border: solid 2px white;
+    border-radius: 5px;
+    padding: 5px;
+    height: 50px;
+    width: 150px;
+    float: right; 
+}
+
+#get-button {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: auto;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.terms {
+    color: silver;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 15px;
+}
+
+.shows-container {
+    position: relative;
+    display: block;
+    justify-content: center;
+    top: 0;
+    margin: 0 auto;
+    z-index: 2;
+    max-width: 1600px;
+}
+
+.shows {
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+}
